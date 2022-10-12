@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<HTML lang="fr">
+
+    <head>
+        <Title>Crêpes : facile à faire</TITLE>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="recette.css">
+    </head>
+
+        <BODY>
+                <!-- Contenu de ma page html-->
+                        <!-- dans css on met p#categorie et <p id="categorie">
+                     ou #categorie et id="categorie" dans les balises concernées-->
+            <!-- class :dans css on met p.categorie(s'applique au p ou h1.class ou ) 
+                ou .categorie et <p class="categorie"> 
+                on peut aussi ecrire h1.categorie,p {...} classe s'applique à h1 et p-->
+
+                
+
+                <div class="contenu">
+                    <div class="centre categorie">
+                        <p class="categorie" >Recette</p>
+                      </div>
+                            <div class="description">
+                            <p class="description">
+                                <h2> Crêpes faciles à préparer </h2> <br>
+
+                                <div class="separateur"> </div>   <br>
+                                Découvrez cette recette facile de crêpes très rapide à préparer. Elle est simple et grâce à sa quantité d'oeufs, ne nécessite aucun repos de la pâte.À préparer à la Chandeleur, pour un brunch ou à tout moment que l'envie vous prend.
+                                    
+                                </div>
+                                <br>
+                            </p>
+<!-- regrouper image et css ensemble dans un div et faire css inline
+     utilisation de position : valeur par defaut static, val = relative (pour l'élément principal)
+    et position = absolute pour l'élément enfant (tableau ici)
+top:0 pour se mettre en haut et bottom :0 (bas) -->
+                             <div class="info">
+                                        <img class="centre info" src="crepes2.png">
+                                        <!-- depuis url image: src = "www.alpha.com/image.jpg?id=9999"
+                                        force à charger l'image-->
+                                            <table class="info">
+                                            <!--opacité : on peut mettre #6C829D00 (transparent)
+                                            ou #6C829DFF (opaque) ou #6C829DC0 (plus de 50%)-->
+                                                <tr>
+                                                    <th>Difficulté</th>
+                                                    <th>Préparation</th>
+                                                    <th>Cuisson</th>
+                                                    <th>Temps total</th>
+                                                </tr>
+                                                <tr><td>Facile</td>
+                                                    <td>20 min</td>
+                                                    <td>15 min</td>
+                                                    <td>35 min</td>
+                                                </tr>
+                                            </table>
+                                </div>
+
+                            <h1>Récette des crêpes :</h1>
+                            </b></p>
+
+
+                <div>
+                            <div class="colonne1 colonne">
+                                    <h2>Ingrédients : </h2>
+                                    <!-- order list : ol élements de liste : list items : li-->
+                                    <div class="ingredients">
+                                        <p>Farine 250 g </p>
+                                        <p>Oeufs 4 </p>
+                                        <p>Lait  1/2 litre</p>
+                                        <p>Sucre 2 à 3 c soupe</p>
+                                        <p>Beurre fondu 50g</p>
+                                        <p>Sel 1 pincée</p>
+                                    </div>
+                            </div>
+
+                            <div class="colonne2 colonne">
+
+                                <h2>Préparation:</h2>
+                                <table class="preparation">
+                                    <tr><td><p class="numero">1</p></td><td class="preparation-etape">Mettez la farine dans un saladier avec le sel et le sucre. </td></tr>
+                                    <tr><td><p class="numero">2</p></td><td class="preparation-etape">Faites un puits au milieu et versez-y les œufs.</td></tr>
+                                    <tr><td><p class="numero">3</p></td><td class="preparation-etape">Commencez à mélanger doucement. Quand le mélange devient épais,
+                                        ajoutez le lait froid petit à petit. </td></tr>
+                                    <tr><td><p class="numero">4</p></td><td class="preparation-etape">Quand tout le lait est mélangé, la pâte doit être assez fluide.
+                                        Si elle vous paraît trop épaisse, rajoutez un peu de lait.
+                                        Ajoutez ensuite le beurre fondu refroidi, mélangez bien. </td></tr>
+                                    <tr><td><p class="numero">5</p></td><td class="preparation-etape">Faites cuire les crêpes dans une poêle chaude.
+                                        Versez une petite louche de pâte dans la poêle, faites un mouvement de rotation pour répartir la pâte sur toute la surface. 
+                                        Posez sur le feu et quand le tour de la crêpe se colore en roux clair, il est temps de la retourner. </td></tr>
+                                    <tr><td><p class="numero">6</p></td><td class="preparation-etape">Laissez cuire environ une minute de ce côté et la crêpe est prête.</td></tr>
+                                    <tr><td><p class="numero">7</p></td><td class="preparation-etape">Pour finir, répétez jusqu'à épuisement de la pâte.</td></tr>
+                                    </table>
+                            </div>
+                        </div>
+                            <!-- la colonne 2 est un float, la taille se fera en fonction de la 
+                            colonne 1, le css sait qu'il y a debordement, on va utiliser l'over-float
+                            pour resoudre ce problème dans le css-->
+                 </div>
+                 
+            </BODY>
+</HTML>
